@@ -572,10 +572,21 @@
     <comp lib="5" loc="(330,670)" name="LED">
       <a name="facing" val="south"/>
     </comp>
-    <comp loc="(1210,560)" name="CLB"/>
-    <comp loc="(1210,750)" name="CLB"/>
-    <comp loc="(770,560)" name="CLB"/>
-    <comp loc="(770,750)" name="CLB"/>
+    <comp lib="8" loc="(592,486)" name="Text">
+      <a name="text" val="SelEntradas"/>
+    </comp>
+    <comp loc="(1210,560)" name="CLB">
+      <a name="label" val="CLB_B"/>
+    </comp>
+    <comp loc="(1210,750)" name="CLB">
+      <a name="label" val="CLB_D"/>
+    </comp>
+    <comp loc="(770,560)" name="CLB">
+      <a name="label" val="CLB_A"/>
+    </comp>
+    <comp loc="(770,750)" name="CLB">
+      <a name="label" val="CLB_C"/>
+    </comp>
     <wire from="(1210,560)" to="(1240,560)"/>
     <wire from="(1210,750)" to="(1240,750)"/>
     <wire from="(170,140)" to="(220,140)"/>
